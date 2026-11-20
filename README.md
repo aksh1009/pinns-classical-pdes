@@ -1,5 +1,15 @@
 # PINNs for Classical PDEs
 
+Physics-Informed Neural Networks (PINNs) use neural networks to approximate solutions of differential equations. They are trained by combining data or initial-boundary conditions with automatic differentiation of the governing physics equation.
+
+This repository implements PINNs for three classical problems:
+
+- **Heat equation:** models how temperature spreads through a medium over time.
+- **Wave equation:** models displacement and wave propagation through space and time.
+- **Damped harmonic oscillator:** models a mass-spring system that loses energy because of damping.
+
+The examples demonstrate how PDE or ODE residual losses, initial conditions, and boundary conditions guide the neural network toward a physically consistent solution.
+
 ## Project structure
 
 ```text
