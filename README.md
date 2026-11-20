@@ -44,11 +44,8 @@ Plots are saved in `results/`.
 
 #### MLP
 
-![Heat equation MLP prediction](results/heat_mlp.png)
+![Heat equation MLP & ResidualNet prediction](results/heat_mlp.png)
 
-#### Residual network
-
-![Heat equation ResidualNet prediction](results/heat_resnet.png)
 
 ### Wave equation
 
