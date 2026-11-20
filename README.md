@@ -38,6 +38,28 @@ python oscillator/damped_oscillator.py
 
 Plots are saved in `results/`.
 
+## Example results
+
+### Heat equation
+
+#### MLP
+
+![Heat equation MLP prediction](results/heat_mlp.png)
+
+#### Residual network
+
+![Heat equation ResidualNet prediction](results/heat_resnet.png)
+
+### Wave equation
+
+![Wave equation PINN prediction](results/wave_mlp.png)
+
+### Damped oscillator
+
+![Damped oscillator PINN solution](results/damped_oscillator_solution.png)
+
+![Damped oscillator ODE residual](results/damped_oscillator_residual.png)
+
 ## Model notes
 
 - The wave example is configured for a **physics-only PINN**. Set `USE_ANALYTICAL_DATA = True` in `wave/wave_mlp.py` to compare against the analytical solution at all grid points and create a data + physics hybrid.
